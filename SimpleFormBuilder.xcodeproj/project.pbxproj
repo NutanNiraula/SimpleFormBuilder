@@ -14,6 +14,23 @@
 		2DE25320226364390099C5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE2531E226364390099C5EF /* LaunchScreen.storyboard */; };
 		2DE2532B226364390099C5EF /* SimpleFormBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2532A226364390099C5EF /* SimpleFormBuilderTests.swift */; };
 		2DE25336226364390099C5EF /* SimpleFormBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25335226364390099C5EF /* SimpleFormBuilderUITests.swift */; };
+		2DE25349226364920099C5EF /* TextValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25344226364920099C5EF /* TextValidationRule.swift */; };
+		2DE2534A226364920099C5EF /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25345226364920099C5EF /* Validator.swift */; };
+		2DE2534B226364920099C5EF /* SmartTextFieldIAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25346226364920099C5EF /* SmartTextFieldIAssets.xcassets */; };
+		2DE2534C226364920099C5EF /* SmartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25347226364920099C5EF /* SmartTextField.swift */; };
+		2DE2534D226364920099C5EF /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25348226364920099C5EF /* TextType.swift */; };
+		2DE25354226364E60099C5EF /* BaseFormTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25350226364E60099C5EF /* BaseFormTableViewCell.xib */; };
+		2DE25355226364E60099C5EF /* FormTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25351226364E60099C5EF /* FormTableView.swift */; };
+		2DE25356226364E60099C5EF /* BaseFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25352226364E60099C5EF /* BaseFormModel.swift */; };
+		2DE25357226364E60099C5EF /* BaseFormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25353226364E60099C5EF /* BaseFormTableViewCell.swift */; };
+		2DE2535A226365800099C5EF /* HighlightedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25358226365800099C5EF /* HighlightedTextField.swift */; };
+		2DE2535B226365800099C5EF /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25359226365800099C5EF /* AppColors.swift */; };
+		2DE2535D226365B40099C5EF /* ViewIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2535C226365B40099C5EF /* ViewIdentifiable.swift */; };
+		2DE2535F226365D00099C5EF /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2535E226365D00099C5EF /* NibLoadable.swift */; };
+		2DE25361226367730099C5EF /* FormDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25360226367730099C5EF /* FormDataModel.swift */; };
+		2DE25363226368070099C5EF /* USStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE25362226368070099C5EF /* USStates.swift */; };
+		2DE25365226368300099C5EF /* USStates.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25364226368300099C5EF /* USStates.json */; };
+		2DE253672263686F0099C5EF /* JsonObjectCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE253662263686F0099C5EF /* JsonObjectCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,23 @@
 		2DE25331226364390099C5EF /* SimpleFormBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE25335226364390099C5EF /* SimpleFormBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormBuilderUITests.swift; sourceTree = "<group>"; };
 		2DE25337226364390099C5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE25344226364920099C5EF /* TextValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidationRule.swift; sourceTree = "<group>"; };
+		2DE25345226364920099C5EF /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		2DE25346226364920099C5EF /* SmartTextFieldIAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SmartTextFieldIAssets.xcassets; sourceTree = "<group>"; };
+		2DE25347226364920099C5EF /* SmartTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartTextField.swift; sourceTree = "<group>"; };
+		2DE25348226364920099C5EF /* TextType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextType.swift; sourceTree = "<group>"; };
+		2DE25350226364E60099C5EF /* BaseFormTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseFormTableViewCell.xib; sourceTree = "<group>"; };
+		2DE25351226364E60099C5EF /* FormTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableView.swift; sourceTree = "<group>"; };
+		2DE25352226364E60099C5EF /* BaseFormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFormModel.swift; sourceTree = "<group>"; };
+		2DE25353226364E60099C5EF /* BaseFormTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFormTableViewCell.swift; sourceTree = "<group>"; };
+		2DE25358226365800099C5EF /* HighlightedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightedTextField.swift; sourceTree = "<group>"; };
+		2DE25359226365800099C5EF /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		2DE2535C226365B40099C5EF /* ViewIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIdentifiable.swift; sourceTree = "<group>"; };
+		2DE2535E226365D00099C5EF /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		2DE25360226367730099C5EF /* FormDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDataModel.swift; sourceTree = "<group>"; };
+		2DE25362226368070099C5EF /* USStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStates.swift; sourceTree = "<group>"; };
+		2DE25364226368300099C5EF /* USStates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = USStates.json; sourceTree = "<group>"; };
+		2DE253662263686F0099C5EF /* JsonObjectCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObjectCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +136,12 @@
 				2DE25319226364380099C5EF /* Main.storyboard */,
 				2DE2531C226364390099C5EF /* Assets.xcassets */,
 				2DE2531E226364390099C5EF /* LaunchScreen.storyboard */,
+				2DE25343226364920099C5EF /* Source */,
 				2DE25321226364390099C5EF /* Info.plist */,
+				2DE25360226367730099C5EF /* FormDataModel.swift */,
+				2DE25362226368070099C5EF /* USStates.swift */,
+				2DE25364226368300099C5EF /* USStates.json */,
+				2DE253662263686F0099C5EF /* JsonObjectCreator.swift */,
 			);
 			path = SimpleFormBuilder;
 			sourceTree = "<group>";
@@ -123,6 +162,42 @@
 				2DE25337226364390099C5EF /* Info.plist */,
 			);
 			path = SimpleFormBuilderUITests;
+			sourceTree = "<group>";
+		};
+		2DE25343226364920099C5EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25359226365800099C5EF /* AppColors.swift */,
+				2DE25358226365800099C5EF /* HighlightedTextField.swift */,
+				2DE2534F226364E60099C5EF /* BaseForm */,
+				2DE2534E226364A10099C5EF /* SmartTextField */,
+				2DE2535C226365B40099C5EF /* ViewIdentifiable.swift */,
+				2DE2535E226365D00099C5EF /* NibLoadable.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2DE2534E226364A10099C5EF /* SmartTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25344226364920099C5EF /* TextValidationRule.swift */,
+				2DE25345226364920099C5EF /* Validator.swift */,
+				2DE25346226364920099C5EF /* SmartTextFieldIAssets.xcassets */,
+				2DE25347226364920099C5EF /* SmartTextField.swift */,
+				2DE25348226364920099C5EF /* TextType.swift */,
+			);
+			path = SmartTextField;
+			sourceTree = "<group>";
+		};
+		2DE2534F226364E60099C5EF /* BaseForm */ = {
+			isa = PBXGroup;
+			children = (
+				2DE25350226364E60099C5EF /* BaseFormTableViewCell.xib */,
+				2DE25351226364E60099C5EF /* FormTableView.swift */,
+				2DE25352226364E60099C5EF /* BaseFormModel.swift */,
+				2DE25353226364E60099C5EF /* BaseFormTableViewCell.swift */,
+			);
+			path = BaseForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +306,10 @@
 			files = (
 				2DE25320226364390099C5EF /* LaunchScreen.storyboard in Resources */,
 				2DE2531D226364390099C5EF /* Assets.xcassets in Resources */,
+				2DE2534B226364920099C5EF /* SmartTextFieldIAssets.xcassets in Resources */,
+				2DE25365226368300099C5EF /* USStates.json in Resources */,
 				2DE2531B226364380099C5EF /* Main.storyboard in Resources */,
+				2DE25354226364E60099C5EF /* BaseFormTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE2535D226365B40099C5EF /* ViewIdentifiable.swift in Sources */,
+				2DE2534A226364920099C5EF /* Validator.swift in Sources */,
 				2DE25318226364380099C5EF /* ViewController.swift in Sources */,
+				2DE253672263686F0099C5EF /* JsonObjectCreator.swift in Sources */,
+				2DE25355226364E60099C5EF /* FormTableView.swift in Sources */,
+				2DE2534C226364920099C5EF /* SmartTextField.swift in Sources */,
+				2DE2535B226365800099C5EF /* AppColors.swift in Sources */,
 				2DE25316226364380099C5EF /* AppDelegate.swift in Sources */,
+				2DE2535A226365800099C5EF /* HighlightedTextField.swift in Sources */,
+				2DE2534D226364920099C5EF /* TextType.swift in Sources */,
+				2DE25356226364E60099C5EF /* BaseFormModel.swift in Sources */,
+				2DE25349226364920099C5EF /* TextValidationRule.swift in Sources */,
+				2DE2535F226365D00099C5EF /* NibLoadable.swift in Sources */,
+				2DE25357226364E60099C5EF /* BaseFormTableViewCell.swift in Sources */,
+				2DE25363226368070099C5EF /* USStates.swift in Sources */,
+				2DE25361226367730099C5EF /* FormDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
